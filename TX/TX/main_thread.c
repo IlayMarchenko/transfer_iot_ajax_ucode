@@ -72,7 +72,7 @@ void *mainThread(void *arg0) {
             Temperature /= 100;
             Humidity /= 1000;
             if (Temperature > 20 || Temperature < 15 || Humidity > 80 || Humidity < 60) {
-                /* Create packet with incrementing sequence number and random payload */
+                /* Create packet with incrementing sequence number and values of humidity and temperature */
                  packet[0] = (uint8_t)(seqNumber >> 8);
                  packet[1] = (uint8_t)(seqNumber++);
                  packet[2] = (uint8_t) Temperature;
