@@ -11,7 +11,7 @@
 
   
 
-## Our equipment is:
+## Our equipment is
 
 * **TI LaunchPad CC1352R1 x2**
 
@@ -21,7 +21,7 @@
 
   
 
-## Software that I’ve used:
+## Software that I’ve used
 
 * **Code Composer Studio**
 
@@ -33,13 +33,13 @@
 
   
 
-## What is my project about:
+## What is my project about
 
 **This project was made to help gardeners grow their plants. Our system will help you to keep the correct temperature and humidity in your greenhouse. If something goes wrong - you will get notification in gmail.**
 
   
 
-## How does it works:
+## How does it works
 
 **First (TX) microcontroller has** _Sensors BoosterPack_ **with** _bme280_ **and every minute checks temperature and humidity in the greenhouse. If current temperature is not into the range** _15-20 degrees_ **or current humidity is not into the range** _60-80%_**, first (TX) microcontroller will send a packet (using radio protocol) with current values to another (RX) microcontroller. RX microcontroller takes values and writes into the serial terminal. From the serial terminal these values will be read by python script, that will send you email like:**
 
@@ -72,7 +72,7 @@
 >===================================
 
 
-## How you could run it:
+## How you could run it
 
 1. **Download my project.**
 2. **Using the Code Composer Studio, built a project in folder “TX”.**
@@ -83,11 +83,11 @@
 7. **Run send_msg.py.**
 
 
-## Author:
+## Author
 **Illia Marchenko, 18 y.o, Ukraine, Kiev, junior embedded developer, email: [ilya.marchenko02@gmail.com](mailto:ilya.marchenko02@gmail.com).**
 
 
-## Note:
+## Note
 **Do not forget that to work with TI Launchpads and Sensors BoosterPack, you should download SDKs.**
 
 
