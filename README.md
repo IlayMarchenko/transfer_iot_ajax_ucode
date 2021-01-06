@@ -55,9 +55,9 @@
 >
 >====================================
 >
->Temperature in the greenhouse now: {temperature}.
+>Temperature in the greenhouse now: 25.
 >
->Humidity in the greenhouse now: {humidity}.
+>Humidity in the greenhouse now: 57.
 >
 >====================================
 >
