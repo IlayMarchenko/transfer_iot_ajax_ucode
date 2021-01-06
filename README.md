@@ -11,7 +11,7 @@
 
   
 
-## Our equipment is
+## Our equipment
 
 * **TI LaunchPad CC1352R1 x2**
 
