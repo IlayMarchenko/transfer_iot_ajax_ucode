@@ -1,7 +1,7 @@
 
 # Transfer :rocket:
 
-**Hello everyone! This is my third challenge in course form Ucode IT Academy feat with Ajax Systems.**
+**Hello everyone! This is my third challenge in course form Ucode IT Academy featuring Ajax Systems.**
 
   
 
